@@ -5,7 +5,7 @@
   "main": "CalendarIOS.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com:christopherdro/react-native-calendar.git"
+    "url": "git@github.com:DmitrySpirin/react-native-calendar.git"
   },
   "files": [
     "CalendarIOS.js",
