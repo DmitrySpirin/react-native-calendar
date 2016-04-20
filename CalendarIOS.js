@@ -253,7 +253,7 @@ let Calendar = React.createClass({
           //days.push(<Day key={`${i},${j}`} filler={true} />);
           var newDay = moment(prevM).set('date', prevCurrentDay - 1);
           prevCurrentDay--;
-          days.push((
+          days.unshift((
               <Day
                   key={`${i},${j}`}
                   onPress={this._selectDate}
